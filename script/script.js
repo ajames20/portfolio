@@ -1,12 +1,16 @@
-$('a[href^="#"]').on('click', function(event) {
 
-    var target = $(this.getAttribute('href'));
+$(document).ready(function() {
+      // easy slide transition
+  $('a[href^="#"]').on('click', function(event) {
 
-    if( target.length ) {
-        event.preventDefault();
-        $('html, body').stop().animate({
-            scrollTop: target.offset().top
-        }, 1000);
-    }
+      var target = $(this.getAttribute('href'));
 
+      if( target.length ) {
+          event.preventDefault();
+          $('html, body').stop().animate({
+              scrollTop: target.offset().top
+          }, 1000);
+      }
+
+  });
 });
