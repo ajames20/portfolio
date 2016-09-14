@@ -1,0 +1,111 @@
+html body{
+  font-family: 'Raleway', sans-serif;
+  background: #ffffff;
+
+}
+span {
+  color: #337ab7;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+.btn {
+  float: right;
+  clear: both;
+}
+
+
+.header {
+  padding-top: 20px;
+  text-align: left;
+  letter-spacing: 3px;
+  font-size: 2em;
+  margin: 4px;
+  margin-left: 10px;
+}
+
+.about {
+  padding-top: 20px;
+  text-align: left;
+  letter-spacing: 3px;
+  font-size: 2em;
+  margin-left: 10px;
+}
+.about h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.image img {
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.projects {
+  padding-top: 30px;
+  padding-left: 10px;
+  text-align: left;
+  background-color: #337ab7;
+}
+.projects img{
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+
+.white {
+  color: #fff;
+}
+
+.contact {
+  padding-top: 30px;
+}
+
+.home {
+  margin-top: 50px;
+  float: right;
+}
+
+.imageSection {
+  background-color: #337ab7;
+
+}
+
+.footer {
+  font-size: 18px;
+  color: #fff;
+  background-color: #337ab7;
+  width: 100%;
+  padding-top: 20px;
+}
+.footer ul a {
+  color: #fff;
+}
+.footer ul a:hover {
+  color: #bcbcbc;
+}
+.footer img {
+  float: right;
+}
